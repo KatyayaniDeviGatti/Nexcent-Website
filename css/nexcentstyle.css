@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.nav-list{
+    font-size: 14px;
+}
+.nav-bar{
+    background-color: #f5f7fa;
+    z-index: 9;
+}
+.logo{
+    height: 20px;
+    margin-left: 18px;
+}
+.signBtn{
+    background-color: #4caf4f;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-right: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    
+}
+.loginBtn{
+    color: #4caf4f;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.popup{
+    background: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.popup-content{
+    height: 350px;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 20px;
+    
+}
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner{
+    background-color: #f5f7fa;
+}
+
+.banner-img{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    height: 400px;
+}
+.banner-tag{
+    padding-top: 100px;
+}
+.time-span{
+    color: #4caf4f;
+}
+.tagline{
+    font-size: 10px;
+    font-weight: lighter;
+    color: #7d7e7e;
+}
+.register-btn{
+    background-color: #4caf4f;
+    font-size: 10px;
+    border: 1px solid #4caf4f;
+    color: white;
+    border-radius: 3px;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+}
+
+.list-items {
+    width: 100px;
+    background: white;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.down-arrow {
+    width: 30px;
+    height: 30px;
+    
+}
+.arrow-rotate{
+    transform: rotate(180deg);
+    transition: 0.2s ease;
+}
+.clients{
+    color: #4d4d4d;
+}
+.clients-tag{
+    color: #989898;
+    font-size: 12px;
+}
+.community{
+    font-size: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: bold;
+}
+.community-tag{
+    font-size: 12px;
+    color: #a3a3a3;
+}
+.client-logos{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.members{
+    border: 2px solid #f4f6f8!important;
+    
+}
+.members-tag{
+    font-size: 10px; 
+    color: #858585;
+}
+.association{
+    border: 2px solid #f4f6f8 !important;
+}
+.association-tag{
+    font-size: 10px; 
+    color: #858585;
+    padding-left: 34px !important;
+    padding-right: 44px !important;
+}
+.club-group{
+    border: 2px solid #f4f6f8!important;
+}
+.group-tag{
+    font-size: 10px; 
+    color: #858585;
+}
+.pixelgrade-tag{
+    font-size: 11px; 
+    color: #979797;
+}
+.heading-local{
+    font-size: 30px;
+}
+.business-tag{
+    color: #4caf4f;  
+    font-size: 30px
+}
+.reach-tag{
+    font-size: 12px;
+}
+.design-tag{
+    font-size: 11px; 
+    color: #bcbcbc;
+}
+.racing{
+    color: #9ba4ae; 
+    font-size: 12px;
+}
+.tim{
+    color: #4daf50;
+}
+.customers{
+    text-decoration: none; 
+    color: #4daf50; 
+    font-size: 12px;
+}
+.learnBtn{
+    background-color: #4caf4f;
+    border-radius: 3px !important;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.demoBtn{
+    background-color: #4caf4f;
+     margin-bottom: 20px; 
+     color: white; 
+     font-size: 12px;
+}
+.suscipit{
+    font-size: 35px;
+}
+.tag{
+    padding: 50px;
+    padding-right: 180px;
+}
+.OneRen{
+     margin-top: 180px;
+}
+.card-marketing{
+    position: relative;
+    bottom: 70px;
+}
+.footer-text{
+    color: #939a9f;
+}
+.send-email{
+    margin-top: 20px;
+    background-color: #515b60;
+    padding:8px; 
+    font-size:12px; 
+    border-radius: 8px; 
+    border: 1px solid  #515b60;
+    color: #c9cbd1;
+   
+}
+input::placeholder{
+    color: #c9cbd1 !important;
+}
